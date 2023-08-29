@@ -29,6 +29,12 @@ li {
 	margin-block: 0.5rem;
 }
 
+@media screen and (max-width: 768px) {
+	li {
+		font-size: 1rem;
+	}
+}
+
 .icon {
 	cursor: pointer;
 	width: 3rem;
