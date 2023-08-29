@@ -1,0 +1,78 @@
+html {
+	background-color: #1c1c1c;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: antiquewhite;
+}
+
+body {
+	max-width: min(100ch, 90%);
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+	p {
+		font-size: 1rem;
+	}
+}
+
+section {
+	padding: 1.5rem 0;
+}
+
+li {
+	font-size: 1.25rem;
+	margin-block: 0.5rem;
+}
+
+.icon {
+	cursor: pointer;
+	width: 3rem;
+	height: 3rem;
+	margin: 1rem;
+}
+
+.font-small {
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+.justify-evenly {
+	justify-content: space-evenly;
+}
+
+.justify-start {
+	justify-content: flex-start;
+}
